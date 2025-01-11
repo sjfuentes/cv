@@ -1,6 +1,6 @@
 resource "aws_s3_bucket" "website-bucket" {
   bucket = local.website_bucket_name
-  
+
 
   tags = {
     Name        = local.website_bucket_name
@@ -30,7 +30,7 @@ resource "aws_s3_bucket_policy" "allow_website_access" {
 }
 
 data "aws_iam_policy_document" "allow_website_access" {
-  source_policy_documents = local.webiste_policy
+  source_policy_documents = [local.webiste_policy]
 }
 
 resource "aws_s3_bucket_website_configuration" "website" {
