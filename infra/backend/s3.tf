@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "backend" {
   bucket        = "${var.account_id}-${var.prefix}-tfstate"
   force_destroy = true
-  # lifecycle {
-  #   prevent_destroy = true
-  # }
+  lifecycle {
+    prevent_destroy = true
+  }
   tags = {
     Name = "${var.account_id}-${var.prefix}-tfstate"
   }
