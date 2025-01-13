@@ -138,7 +138,7 @@ const App = () => {
       {/* Experience Section */}
       <section id="experience" className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto">
-          <h3 className="text-2xl font-bold text-gray-800 mb-6">Experience</h3>
+          <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">Experience</h3>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800 text-center">Infrastructure Consultant</h4>
             <p className="text-gray-600 text-center">Thoughtworks ( Dic 2022 - present)</p>
@@ -249,7 +249,7 @@ const App = () => {
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Education</h3>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">Master in Software Engineering</h4>
-            <p className="text-gray-600">Universidad de los Andes Colombia ( Jan 2025 - present)</p>
+            <p className="text-gray-600">Universidad de los Andes Colombia ( Jan 2025 - present )</p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">Bachelor in Mechatronic Engineering</h4>
@@ -266,32 +266,32 @@ const App = () => {
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">GitHub Foundations</h4>
             <p className="text-gray-600">GitHub (2024)</p>
-            <a href="https://www.credly.com/badges/bfa67734-fe44-4788-8b92-2fa8328ffb45/public_url" className="text-blue-500">View on Credly</a>
+            <a href="https://www.credly.com/badges/bfa67734-fe44-4788-8b92-2fa8328ffb45/public_url" className="text-blue-500" target="_blank">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">AWS Certified Solutions Architect - Associate</h4>
             <p className="text-gray-600">Amazon Web Services (2023)</p>
-            <a href="https://www.credly.com/badges/87e8dfc5-46d3-4a21-8293-8f8a4fc697b7/public_url" className="text-blue-500">View on Credly</a>
+            <a href="https://www.credly.com/badges/87e8dfc5-46d3-4a21-8293-8f8a4fc697b7/public_url" className="text-blue-500" target="_blank">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">HashiCorp Certified Terraform Associate (003)</h4>
             <p className="text-gray-600">HashiCorp (2023)</p>
-            <a href="https://www.credly.com/badges/465c8b93-b518-4930-adec-0324ac6e3427/public_url" className="text-blue-500">View on Credly</a>
+            <a href="https://www.credly.com/badges/465c8b93-b518-4930-adec-0324ac6e3427/public_url" className="text-blue-500" target="_blank">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">Microsoft Certified: Azure Fundamentals (AZ-900)</h4>
             <p className="text-gray-600">Microsoft (2023)</p>
-            <a href="https://www.credly.com/badges/46dbc48e-fec3-472b-b06e-25c2fa035d42/public_url" className="text-blue-500">View on Credly</a>
+            <a href="https://www.credly.com/badges/46dbc48e-fec3-472b-b06e-25c2fa035d42/public_url" className="text-blue-500" target="_blank">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">AWS Partner: Technical Accredited</h4>
             <p className="text-gray-600">Amazon Web Services (2022)</p>
-            <a href="https://www.credly.com/badges/123bab1c-4874-4cd7-9bfb-5f2836fff359/public_url" className="text-blue-500">View on Credly</a>
+            <a href="https://www.credly.com/badges/123bab1c-4874-4cd7-9bfb-5f2836fff359/public_url" className="text-blue-500" target="_blank">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">AWS Partner: Cloud Economics Essentials</h4>
             <p className="text-gray-600">Amazon Web Services (2022)</p>
-            <a href="https://www.credly.com/badges/bc1a3b61-b57e-410c-94a6-946ef8855419/public_url" className="text-blue-500">View on Credly</a>
+            <a href="https://www.credly.com/badges/bc1a3b61-b57e-410c-94a6-946ef8855419/public_url" className="text-blue-500" target="_blank">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800">Training in leadership, public speaking, mental reengineering,
@@ -306,7 +306,7 @@ const App = () => {
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-20 bg-gray-100">
+      <section id="skills" className="py-20">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Skills</h3>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
@@ -341,20 +341,16 @@ const App = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20">
+      <section id="projects" className="py-20 bg-gray-100">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Projects</h3>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">Project 1</h4>
-            <p className="text-gray-600">A brief description of the project.</p>
-            <a href="https://github.com/username/project1" target="_blank" rel="noopener noreferrer" className="text-blue-500">
-              View on GitHub
-            </a>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">Project 2</h4>
-            <p className="text-gray-600">A brief description of the project.</p>
-            <a href="https://github.com/username/project2" target="_blank" rel="noopener noreferrer" className="text-blue-500">
+            <h4 className="text-xl font-semibold text-gray-800">Curriculum Vitae Project</h4>
+            <p className="text-gray-600 text-left mt-2 mb-2">This project contians the react code that implements a simple website
+              to showcase a curriculum vitae through a web page. It will also contains the infrastructure
+              code that support the website implementation on AWS S3.
+            </p>
+            <a href="https://github.com/sjfuentes/cv" className="text-blue-500" target="_blank">
               View on GitHub
             </a>
           </div>
@@ -365,25 +361,63 @@ const App = () => {
       <section id="contact" className="py-20">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Contact</h3>
-          <form className="max-w-xl mx-auto">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-            />
-            <textarea
-              placeholder="Your Message"
-              className="w-full p-3 mb-4 border border-gray-300 rounded-lg"
-            />
-            <button type="submit" className="w-full bg-blue-500 text-white p-3 rounded-lg">
-              Send Message
-            </button>
-          </form>
+        <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+          <p className="mb-4 text-center">Feel free to reach out to me through the following platforms:</p>
+        <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+          {/* GitHub Link */}
+          <a
+            href="https://github.com/sjfuentes" target="_blank"
+          >
+            <div className="flex items-center mb-5">
+              <img
+                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                alt="GitHub"
+                width="30"
+                height="30"
+                className="me-2"
+              />
+              <span>GitHub</span>
+            </div>
+          </a>
+        </div>
+        <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+          {/* LinkeIn Link */}
+          <a
+            href="https://linkedin.com/in/sjfuentes" target="_blank"
+          >
+            <div className="flex items-center mb-5">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Linkedin_icon.svg"
+                alt="GitHub"
+                width="30"
+                height="30"
+                className="me-2"
+              />
+              <span>GitHub</span>
+            </div>
+          </a>
+        </div>
+        <div className="max-w-6xl mx-auto text-center">
+          <p className="mb-4">Or Email me at:</p>
+          <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+          {/* Email Link */}
+          <a
+            href="mailto:sjfuentes@outlook.com" target="_blank"
+          >
+            <div className="flex items-center mb-5">
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+                alt="GitHub"
+                width="30"
+                height="30"
+                className="me-2"
+              />
+              <span>sjfuentes@outlook.com</span>
+            </div>
+          </a>
+        </div>
+        </div>
+        </div>
         </div>
       </section>
     </div>
