@@ -272,16 +272,43 @@ const App = () => {
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Certifications</h3>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">Certified Kubernetes Administrator (CKA)</h4>
-            <p className="text-gray-600">Cloud Native Computing Foundation (2022)</p>
+            <h4 className="text-xl font-semibold text-gray-800">GitHub Foundations</h4>
+            <p className="text-gray-600">GitHub (2024)</p>
+            <a href="https://www.credly.com/badges/bfa67734-fe44-4788-8b92-2fa8328ffb45/public_url" className="text-blue-500">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">AWS Certified Solutions Architect</h4>
-            <p className="text-gray-600">Amazon Web Services (2021)</p>
+            <h4 className="text-xl font-semibold text-gray-800">AWS Certified Solutions Architect - Associate</h4>
+            <p className="text-gray-600">Amazon Web Services (2023)</p>
+            <a href="https://www.credly.com/badges/87e8dfc5-46d3-4a21-8293-8f8a4fc697b7/public_url" className="text-blue-500">View on Credly</a>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">Google Cloud Professional Cloud Architect</h4>
-            <p className="text-gray-600">Google Cloud (2020)</p>
+            <h4 className="text-xl font-semibold text-gray-800">HashiCorp Certified Terraform Associate (003)</h4>
+            <p className="text-gray-600">HashiCorp (2023)</p>
+            <a href="https://www.credly.com/badges/465c8b93-b518-4930-adec-0324ac6e3427/public_url" className="text-blue-500">View on Credly</a>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800">Microsoft Certified: Azure Fundamentals (AZ-900)</h4>
+            <p className="text-gray-600">Microsoft (2023)</p>
+            <a href="https://www.credly.com/badges/46dbc48e-fec3-472b-b06e-25c2fa035d42/public_url" className="text-blue-500">View on Credly</a>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800">AWS Partner: Technical Accredited</h4>
+            <p className="text-gray-600">Amazon Web Services (2022)</p>
+            <a href="https://www.credly.com/badges/123bab1c-4874-4cd7-9bfb-5f2836fff359/public_url" className="text-blue-500">View on Credly</a>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800">AWS Partner: Cloud Economics Essentials</h4>
+            <p className="text-gray-600">Amazon Web Services (2022)</p>
+            <a href="https://www.credly.com/badges/bc1a3b61-b57e-410c-94a6-946ef8855419/public_url" className="text-blue-500">View on Credly</a>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800">Training in leadership, public speaking, mental reengineering,
+            memory, and speed reading</h4>
+            <p className="text-gray-600">ILVEM (2011)</p>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800">Toefl ITP</h4>
+            <p className="text-gray-600"> B2 Level (2016)</p>
           </div>
         </div>
       </section>
