@@ -15,7 +15,7 @@ resource "aws_s3_bucket_versioning" "webiste-versionning" {
   }
 }
 
-resource "aws_s3_bucket_public_access_block" "example" {
+resource "aws_s3_bucket_public_access_block" "s3_access" {
   bucket = aws_s3_bucket.website-bucket.id
 
   block_public_acls       = var.block_public_acls
