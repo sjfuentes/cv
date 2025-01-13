@@ -195,7 +195,7 @@ const App = () => {
                       response plan for it.
                     </li>
                     <li>
-                      Provision and mantainance of the Dev and QA environments for the 
+                      Provision and maintenance of the Dev and QA environments for the 
                       application in Google Cloud.
                     </li>
                     <li>
@@ -211,7 +211,7 @@ const App = () => {
                 <p className="text-gray-600">For this project, I was in charge of the following:</p>
                   <ul className="text-gray-600 list-disc pl-6 mt-2">
                     <li>
-                      Development of the frontend using React and Typescript with conitnuos 
+                      Development of the frontend using React and Typescript with continuous 
                       communication with the backend.
                     </li>
                     <li>
@@ -219,7 +219,7 @@ const App = () => {
                       good testing coverage.
                     </li>
                     <li>
-                      Implement backend functinonality with NodeJS and data store on PostgreSQL DB.
+                      Implement backend functionality with NodeJS and data store on PostgreSQL DB.
                     </li>
                     <li>
                       Tech Stack: React, Typescript, Tailwind, NodeJS, Express, Sequalize,
@@ -232,7 +232,7 @@ const App = () => {
                   <ul className="text-gray-600 list-disc pl-6 mt-2">
                     <li>
                       A fully remote, 3 weeks long, global development program that
-                      included 1:1 coaching, daily skills sessions, andon-going
+                      included 1:1 coaching, daily skills sessions, and on-going
                       mentoring.
                     </li>
                     <li>
