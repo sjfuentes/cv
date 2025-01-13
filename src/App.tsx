@@ -102,8 +102,8 @@ const App = () => {
             </li>
             <li className="text-center py-2">
               <a
-                href="/cv.pdf" // Link to the CV file in the public folder
-                download="John_Doe_CV" // Optional: Specify the filename for the download
+                href="/Santiago Fuentes CV.pdf" // Link to the CV file in the public folder
+                download="Santiago Fuentes CV" // Optional: Specify the filename for the download
                 className="bg-blue-500 text-white px-2 py-2 rounded-lg hover:bg-blue-700"
               >
                 Download CV
