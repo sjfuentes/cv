@@ -256,8 +256,12 @@ const App = () => {
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Education</h3>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">Bachelor of Science in Computer Science</h4>
-            <p className="text-gray-600">University Name (2014 - 2018)</p>
+            <h4 className="text-xl font-semibold text-gray-800">Master in Software Engineering</h4>
+            <p className="text-gray-600">Universidad de los Andes Colombia ( Jan 2025 - present)</p>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800">Bachelor in Mechatronic Engineering</h4>
+            <p className="text-gray-600">Armed Forces University ESPE ( Oct 2015 - Feb 2022 )</p>
           </div>
         </div>
       </section>
