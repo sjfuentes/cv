@@ -142,8 +142,7 @@ const App = () => {
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800 text-center">Infrastructure Consultant</h4>
             <p className="text-gray-600 text-center">Thoughtworks ( Dic 2022 - present)</p>
-              <p className="text-gray-500 mt-4">
-                Cloud Modernization Project
+              <p className="text-gray-500 mt-4 font-semibold">Cloud Modernization Project</p>
                 <p className="text-gray-600">I have been working on the following points:</p>
                   <ul className="text-gray-600 list-disc pl-6 mt-2">
                     <li>
@@ -184,13 +183,11 @@ const App = () => {
                       Sonatype IQ Server, Azure Devops Board.
                     </li>
                   </ul>
-              </p>
           </div>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
             <h4 className="text-xl font-semibold text-gray-800 text-center">Developer Consultant -  Graduated</h4>
             <p className="text-gray-600 text-center">Thoughtworks ( March 2022 - Dec 2022)</p>
-              <p className="text-gray-500 mt-4">
-                Thoughtworks Internal Project, Benefits Portal
+              <p className="text-gray-500 mt-4 font-semibold"> Thoughtworks Internal Project, Benefits Portal </p>
                 <p className="text-gray-600">During this project, I worked on:</p>
                   <ul className="text-gray-600 list-disc pl-6 mt-2">
                     <li>
@@ -209,10 +206,8 @@ const App = () => {
                       Java, Spring Boot.
                     </li>
                   </ul>
-              </p>
               <br/>
-              <p className="text-gray-500 mt-4">
-                Thoughtworks Internal Project, Staffing System
+              <p className="text-gray-500 mt-4 font-semibold"> Thoughtworks Internal Project, Staffing System </p>
                 <p className="text-gray-600">For this project, I was in charge of the following:</p>
                   <ul className="text-gray-600 list-disc pl-6 mt-2">
                     <li>
@@ -231,10 +226,8 @@ const App = () => {
                       PostgreSQL, Google Cloud, CircleCI, Docker, Docker compose.
                     </li>
                   </ul>
-              </p>
               <br/>
-              <p className="text-gray-500 mt-4">
-                Thoughtworks University Program
+              <p className="text-gray-500 mt-4 font-semibold">Thoughtworks University Program</p>
                 <p className="text-gray-600">During this program I had:</p>
                   <ul className="text-gray-600 list-disc pl-6 mt-2">
                     <li>
@@ -246,7 +239,6 @@ const App = () => {
                       Tech Stack: React, Java, Spring Boot, JavaScript, Gitlab, Bootstrap.
                     </li>
                   </ul>
-              </p>
           </div>
         </div>
       </section>
@@ -318,24 +310,31 @@ const App = () => {
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Skills</h3>
           <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">Frontend Skills</h4>
-            <ul className="text-gray-600 list-disc pl-6">
-              <li>HTML, CSS, JavaScript</li>
-              <li>React</li>
-            </ul>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">Backend Skills</h4>
-            <ul className="text-gray-600 list-disc pl-6">
-              <li>Node.js, Express</li>
-              <li>MongoDB</li>
-            </ul>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
-            <h4 className="text-xl font-semibold text-gray-800">DevOps Skills</h4>
-            <ul className="text-gray-600 list-disc pl-6">
+            <h4 className="text-xl font-semibold text-gray-800 mb-2">DevOps Skills</h4>
+            <ul className="text-gray-600">
               <li>AWS, Azure</li>
-              <li>Terraform</li>
+              <li>Terraform </li>
+              <li>Jenkins, GitHub Actions</li>
+              <li>Docker, Kaniko</li>
+              <li>Kubernetes, Docker Compose</li>
+              <li>SonarQube, Nexus Sonatype</li>
+            </ul>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800 mb-2">Frontend Skills</h4>
+            <ul className="text-gray-600">
+              <li>HTML, CSS</li>
+              <li>TypeScript, JavaScript</li>
+              <li>React, Angular</li>
+              <li>Bootstrap, Tailwind CSS</li>
+            </ul>
+          </div>
+          <div className="bg-white shadow-lg rounded-lg p-6 mb-6">
+            <h4 className="text-xl font-semibold text-gray-800 mb-2">Backend Skills</h4>
+            <ul className="text-gray-600">
+              <li>NodeJS, Express</li>
+              <li>MongoDB, PostgreSQL</li>
+              <li>Postman, DBeaver</li>
             </ul>
           </div>
         </div>
