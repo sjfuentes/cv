@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket         = "882567899411-sjfuentes-tfstate"
-    key            = "infra.tfstate"
+    key            = "frontend.tfstate"
     region         = "us-west-2"
     dynamodb_table = "sjfuentes-tfstate-locks"
     encrypt        = true
@@ -26,7 +26,7 @@ provider "aws" {
 }
 
 provider "aws" {
-  alias = "east"
+  alias  = "east"
   region = "us-east-1"
   default_tags {
     tags = {
