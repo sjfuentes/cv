@@ -129,9 +129,9 @@ const App = () => {
         <p className="text-xl text-gray-600 mb-4">DevOps Engineer</p>
         <p className="text-gray-500 mb-4">Ambato, Ecuador | +593 983299756 | sjfuentes@outlook.com</p>
         <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-          Highly motivated and detail-oriented Infrastructure and DevOps Engineer eager to deploy and managed
+          Highly motivated and detail-oriented Infrastructure and DevOps Engineer eager to deploy and manage
           infrastructure in cloud environments such as AWS and Azure, especially with Infrastructure as Code tools 
-          while developing CI/CD pipelines to automate the deployment of infrastrure and applicacion code.
+          while developing CI/CD pipelines to automate the deployment of infrastructure and applicacion code.
         </p>
       </section>
 
