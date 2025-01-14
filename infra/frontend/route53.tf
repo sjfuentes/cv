@@ -4,7 +4,7 @@ resource "aws_route53_record" "sjfuentes" {
   type    = "A"
   alias {
     name                   = aws_cloudfront_distribution.clodufront.domain_name
-    zone_id                = data.aws_route53_zone.selected_zone.zone_id
+    zone_id                = aws_cloudfront_distribution.clodufront.hosted_zone_id
     evaluate_target_health = true
   }
 }
