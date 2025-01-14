@@ -1,6 +1,6 @@
 resource "aws_route53_record" "sjfuentes" {
   zone_id = data.aws_route53_zone.selected_zone.zone_id
-  name    = "sjfuentes.com"
+  name    = "${var.domain_name}"
   type    = "A"
   alias {
     name                   = aws_cloudfront_distribution.clodufront.domain_name
