@@ -8,7 +8,7 @@ resource "aws_cloudfront_origin_access_control" "assign-oac" {
 
 resource "aws_cloudfront_distribution" "clodufront" {
   origin {
-    domain_name              = data.aws_s3_bucket.selected.website_endpoint
+    domain_name              = data.aws_s3_bucket.selected.bucket_domain_name
     origin_id                = local.s3_origin_id
     origin_access_control_id = aws_cloudfront_origin_access_control.assign-oac.id
   }
